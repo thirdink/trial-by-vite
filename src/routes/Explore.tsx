@@ -171,7 +171,7 @@ const Explore: React.FC = () => {
 								</p>
 							</div>
 						</div>
-						<div className='flex flex-col p-3 mb-10'>
+						<div className='flex flex-col p-3 mb-20'>
 							<div className='overflow-x-scroll flex  whitespace-nowrap   flex-row justify-center  items-center snap-x snap-proximity ml-1 hide-scroll-bar gap-5'>
 								{experiences.map((trip) => (
 									<div
