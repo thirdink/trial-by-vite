@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# React js pixel force project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built with TypeScript and Vite.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to install and run the project:
 
-## Expanding the ESLint configuration
+1. Clone the repository to your local machine:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/thirdink/trial-by-vite.git
+```
+```bash
+cd <project-directory>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+3. Run the application:
+
+```bash
+npm run dev
+```
+
+## Usage
+
+The application will be available at http://localhost:5173/
+
+http://localhost:5173/onboarding for the onboarding screen (Click login button to go to login screen)
+
+please visit http://localhost:5173/login for the login screen (back button take you back to onboarding screen, login button takes to to / home screen )
+
+http://localhost:5173/explore for the dashboard screen 
+
+
+## Implementation and challenges
+
+Regarding the implementation of this project I decided to use vite as a bundler and react as a framework, I also used typescript to have a better typing and avoid errors in the code, I used the react-router-dom library to manage the routes of the application, I used the tailwindcss library to manage the styles of the application, and also added nextui for the buttons layout. I focused on the code quality by implementing as much resuable components as possible in the given time frame. 
+
+some of the challenges I had were the following:
+
+- finding the San Fran font from the figma file since its built in the mac and not as accessible as say google fonts.
+- in the explore page I had some problem with screen overflow for horizontal scrolling .
+- making in responsive for bigger screens without the designs.
