@@ -5,7 +5,7 @@ function Root() {
 	return (
 		<>
 			<main className='purple-light text-foreground bg-background'>
-				<div className='w-full h-screen'>
+				<div className='w-full h-screen min-h-screen bg-background font-sans antialiased my-auto'>
 					<div id='detail'>
 						<Outlet />
 					</div>

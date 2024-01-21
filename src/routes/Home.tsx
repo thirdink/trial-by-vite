@@ -1,11 +1,11 @@
-function Root() {
+function Home() {
 	return (
 		<>
 			<div className='w-full h-screen'>
-				<p>Home</p>
+				<div>Profile</div>
 			</div>
 		</>
 	);
 }
 
-export default Root;
+export default Home;
