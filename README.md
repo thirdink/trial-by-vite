@@ -12,7 +12,7 @@ Follow these steps to install and run the project:
 git clone https://github.com/thirdink/trial-by-vite.git
 ```
 ```bash
-cd <project-directory>
+cd trial-by-vite
 ```
 
 2. Install the dependencies:
@@ -45,5 +45,5 @@ Regarding the implementation of this project I decided to use vite as a bundler 
 some of the challenges I had were the following:
 
 - finding the San Fran font from the figma file since its built in the mac and not as accessible as say google fonts.
-- in the explore page I had some problem with screen overflow for horizontal scrolling .
-- making in responsive for bigger screens without the designs.
+- in the explore page I had a challenging time with screen overflow for horizontal scrolling.
+- making in responsive for bigger screens without the designs was a challenge.
