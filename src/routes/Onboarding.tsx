@@ -19,43 +19,19 @@ const Onboarding: React.FC = () => {
 								}}
 							>
 								<div className='flex flex-col gap-[0.5625rem]'>
-									<img src='/public/Image.png' alt='image1' />
-									<img
-										src='/public/Image-2.png'
-										alt='image2'
-									/>
-									<img
-										src='/public/Image-3.png'
-										alt='image3'
-									/>
+									<img src='/Image.png' alt='image1' />
+									<img src='/Image-2.png' alt='image2' />
+									<img src='/Image-3.png' alt='image3' />
 								</div>
 								<div className='flex flex-col gap-[0.5625rem]'>
-									<img
-										src='/public/Image-4.png'
-										alt='image1'
-									/>
-									<img
-										src='/public/Image-5.png'
-										alt='image2'
-									/>
-									<img
-										src='/public/Image-6.png'
-										alt='image3'
-									/>
+									<img src='/Image-4.png' alt='image1' />
+									<img src='/Image-5.png' alt='image2' />
+									<img src='/Image-6.png' alt='image3' />
 								</div>
 								<div className='flex flex-col gap-[0.5625rem]'>
-									<img
-										src='/public/Image-7.png'
-										alt='image1'
-									/>
-									<img
-										src='/public/Image-8.png'
-										alt='image2'
-									/>
-									<img
-										src='/public/Image-9.png'
-										alt='image3'
-									/>
+									<img src='/Image-7.png' alt='image1' />
+									<img src='/Image-8.png' alt='image2' />
+									<img src='/Image-9.png' alt='image3' />
 								</div>
 							</div>
 						</div>
