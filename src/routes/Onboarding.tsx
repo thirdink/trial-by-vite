@@ -19,44 +19,41 @@ const Onboarding: React.FC = () => {
 								}}
 							>
 								<div className='flex flex-col gap-[0.5625rem]'>
+									<img src='/public/Image.png' alt='image1' />
 									<img
-										src='src/assets/Image.png'
-										alt='image1'
-									/>
-									<img
-										src='src/assets/Image-2.png'
+										src='/public/Image-2.png'
 										alt='image2'
 									/>
 									<img
-										src='src/assets/Image-3.png'
+										src='/public/Image-3.png'
 										alt='image3'
 									/>
 								</div>
 								<div className='flex flex-col gap-[0.5625rem]'>
 									<img
-										src='src/assets/Image-4.png'
+										src='/public/Image-4.png'
 										alt='image1'
 									/>
 									<img
-										src='src/assets/Image-5.png'
+										src='/public/Image-5.png'
 										alt='image2'
 									/>
 									<img
-										src='src/assets/Image-6.png'
+										src='/public/Image-6.png'
 										alt='image3'
 									/>
 								</div>
 								<div className='flex flex-col gap-[0.5625rem]'>
 									<img
-										src='src/assets/Image-7.png'
+										src='/public/Image-7.png'
 										alt='image1'
 									/>
 									<img
-										src='src/assets/Image-8.png'
+										src='/public/Image-8.png'
 										alt='image2'
 									/>
 									<img
-										src='src/assets/Image-9.png'
+										src='/public/Image-9.png'
 										alt='image3'
 									/>
 								</div>
